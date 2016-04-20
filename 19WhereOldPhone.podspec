@@ -15,6 +15,6 @@ s.requires_arc = true
 s.source_files = "19WhereOldPhone/*"
 
 
-s.frameworks = "Foundation", "QuartzCore", "UIKit"
+s.frameworks = "Foundation", "QuartzCore", "UIKit", "ASIHTTPRequest"
 
 end
