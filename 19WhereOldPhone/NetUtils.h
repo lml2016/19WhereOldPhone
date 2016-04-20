@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "ASIHTTPRequest.h"
+//#import "ASIHTTPRequest.h"
 #import "SGCommon.h"
 #import "ASIFormDataRequest.h"
 

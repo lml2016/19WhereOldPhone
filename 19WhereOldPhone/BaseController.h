@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "AppDelegate.h"
+//#import "AppDelegate.h"
 #import "NetUtils.h"
 #import "UrlManager.h"
 #import "SGCommon.h"
