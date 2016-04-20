@@ -62,7 +62,7 @@
                 <constraint firstItem="Rie-zR-ogt" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="su8-12-Ply"/>
             </constraints>
             <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
-            <point key="canvasLocation" x="254.5" y="425.5"/>
+            <point key="canvasLocation" x="344.5" y="425.5"/>
         </view>
     </objects>
     <resources>

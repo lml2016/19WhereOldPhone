@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PhoneModelController">
+            <connections>
+                <outlet property="tableview" destination="ipj-C0-F5G" id="LQu-BH-0YA"/>
+                <outlet property="view" destination="iN0-l3-epB" id="CeP-ca-J0U"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="ipj-C0-F5G">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="ipj-C0-F5G" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="2qy-SV-pKF"/>
+                <constraint firstAttribute="trailing" secondItem="ipj-C0-F5G" secondAttribute="trailing" id="ahj-TW-HGR"/>
+                <constraint firstAttribute="bottom" secondItem="ipj-C0-F5G" secondAttribute="bottom" id="ehI-Rm-EIf"/>
+                <constraint firstItem="ipj-C0-F5G" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="vx9-Fo-qc7"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+            <point key="canvasLocation" x="520.5" y="437.5"/>
+        </view>
+    </objects>
+</document>
