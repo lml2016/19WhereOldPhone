@@ -1,14 +1,29 @@
 //
 //  BaseController.h
-//  suiyi
+//  Wenba
 //
-//  Created by lml on 16/4/20.
-//  Copyright © 2016年 lml. All rights reserved.
+//  Created by GL on 15/1/5.
+//  Copyright (c) 2015年 canpoint. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
+#import "AppDelegate.h"
+#import "NetUtils.h"
+#import "UrlManager.h"
+#import "SGCommon.h"
+#import "SVProgressHUD.h"
+#import "AppMacro.h"
+#import "UtilsMacro.h"
+
+#import "UIView+Utils.h"
+
 
 @interface BaseController : UIViewController
-@property (weak, nonatomic) IBOutlet UILabel *Label;
+
+@property (nonatomic,assign) float defaultTop;
+
+@property (nonatomic,strong) UITapGestureRecognizer *tapGesture;
+
+- (void) initTapView;
 
 @end
